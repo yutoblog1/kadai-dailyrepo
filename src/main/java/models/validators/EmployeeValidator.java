@@ -68,7 +68,7 @@ public class EmployeeValidator {
             //同一社員番号が既に登録されている場合はエラーメッセージを返却
             if (employeesCount > 0) {
                 return MessageConst.E_EMP_CODE_EXIST.getMessage();
-            }
+            }s
         }
 
         //エラーがない場合は空文字を返却
